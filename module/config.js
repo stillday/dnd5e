@@ -588,29 +588,29 @@ preLocalize("consumableTypes", { sort: true });
  */
 DND5E.currencies = {
   pp: {
-    label: "DND5E.CurrencyPP",
+    label: "DARKSOULS.Souls",
     abbreviation: "DND5E.CurrencyAbbrPP"
   },
-  gp: {
-    label: "DND5E.CurrencyGP",
-    abbreviation: "DND5E.CurrencyAbbrGP",
-    conversion: {into: "pp", each: 10}
-  },
-  ep: {
-    label: "DND5E.CurrencyEP",
-    abbreviation: "DND5E.CurrencyAbbrEP",
-    conversion: {into: "gp", each: 2}
-  },
-  sp: {
-    label: "DND5E.CurrencySP",
-    abbreviation: "DND5E.CurrencyAbbrSP",
-    conversion: {into: "ep", each: 5}
-  },
-  cp: {
-    label: "DND5E.CurrencyCP",
-    abbreviation: "DND5E.CurrencyAbbrCP",
-    conversion: {into: "sp", each: 10}
-  }
+  // gp: {
+  //   label: "DND5E.CurrencyGP",
+  //   abbreviation: "DND5E.CurrencyAbbrGP",
+  //   conversion: {into: "pp", each: 10}
+  // },
+  // ep: {
+  //   label: "DND5E.CurrencyEP",
+  //   abbreviation: "DND5E.CurrencyAbbrEP",
+  //   conversion: {into: "gp", each: 2}
+  // },
+  // sp: {
+  //   label: "DND5E.CurrencySP",
+  //   abbreviation: "DND5E.CurrencyAbbrSP",
+  //   conversion: {into: "ep", each: 5}
+  // },
+  // cp: {
+  //   label: "DND5E.CurrencyCP",
+  //   abbreviation: "DND5E.CurrencyAbbrCP",
+  //   conversion: {into: "sp", each: 10}
+  // }
 };
 preLocalize("currencies", { keys: ["label", "abbreviation"] });
 
