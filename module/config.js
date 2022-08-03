@@ -590,7 +590,7 @@ DND5E.currencies = {
   pp: {
     label: "DARKSOULS.Souls",
     abbreviation: "DND5E.CurrencyAbbrPP"
-  },
+  }
   // gp: {
   //   label: "DND5E.CurrencyGP",
   //   abbreviation: "DND5E.CurrencyAbbrGP",

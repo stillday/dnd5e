@@ -1170,7 +1170,11 @@ export default class ActorSheet5e extends ActorSheet {
   /** @override */
   _getHeaderButtons() {
     let buttons = super._getHeaderButtons();
+    console.log('btn', buttons);
+    console.log('is', this.actor.isPolymorphed)
+
     if ( this.actor.isPolymorphed ) {
+      console.log('is poly', this.actor.isPolymorphed)
       buttons.unshift({
         label: "DND5E.PolymorphRestoreTransformation",
         class: "restore-transformation",
@@ -1178,6 +1182,7 @@ export default class ActorSheet5e extends ActorSheet {
         onclick: () => this.actor.revertOriginalForm()
       });
     }
+    console.log('btn2', buttons);
     return buttons;
   }
 }
